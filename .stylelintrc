@@ -1,0 +1,14 @@
+{
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "stylelint-config-xo",
+    "stylelint-config-styled-components"
+  ],
+  "rules": {
+    "font-family-name-quotes": null,
+    "font-weight-notation": null,
+    "declaration-colon-newline-after": null
+  }
+}
