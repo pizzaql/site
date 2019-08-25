@@ -22,8 +22,7 @@ const nextConfig = {
 				}
 			}
 		]
-	},
-	target: 'serverless'
+	}
 };
 
 module.exports = withCSS(withFonts(withOffline(nextConfig)));
