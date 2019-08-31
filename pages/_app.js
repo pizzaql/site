@@ -26,7 +26,8 @@ const GlobalStyle = createGlobalStyle`
 		margin: auto;
 		width: 100%;
 		font-size: 16px;
-		padding-top: 100px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 		color: #000;
 		-webkit-font-smoothing: antialiased;
 		text-rendering: optimizeSpeed;
