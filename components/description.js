@@ -6,7 +6,7 @@ const Wrapper = styled.div`
 `;
 
 const Text = styled.h2`
-    font-size: 1.3em;
+    font-size: 1.2em;
 `;
 
 const Description = () => (
