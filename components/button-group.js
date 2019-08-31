@@ -6,6 +6,7 @@ const ButtonGroup = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
 `;
 
 export default ButtonGroup;
