@@ -4,8 +4,8 @@ import breakpoint from 'styled-components-breakpoint';
 
 const Img = styled.img`
     ${breakpoint('desktop')`
-        width: 30%;
-        height: 30%;
+        width: 25%;
+        height: 25%;
     `}
 
     ${breakpoint('mobile')`
