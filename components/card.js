@@ -6,8 +6,8 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 45vw;
-    padding-bottom: 5em;
+    width: 50vw;
+    padding-bottom: 3em;
 `;
 
 const Description = styled.div`
