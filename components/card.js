@@ -14,7 +14,7 @@ const Wrapper = styled.div`
     `}
 
     ${breakpoint('mobile')`
-    	padding-bottom: 50px;
+    	padding-bottom: 0px;
     `}
 `;
 
