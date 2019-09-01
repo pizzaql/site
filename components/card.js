@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import breakpoint from 'styled-components-breakpoint';
 import PropTypes from 'prop-types';
 
 const Wrapper = styled.div`
@@ -7,7 +8,14 @@ const Wrapper = styled.div`
     justify-content: space-around;
     flex-wrap: wrap;
     width: 50vw;
-    padding-bottom: 3em;
+
+	${breakpoint('desktop')`
+    	padding-bottom: 3em;
+    `}
+
+    ${breakpoint('mobile')`
+    	padding-bottom: 50px;
+    `}
 `;
 
 const Description = styled.div`
