@@ -7,10 +7,10 @@ const Wrapper = styled.div`
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 50vw;
+    width: 45vw;
 
 	${breakpoint('desktop')`
-    	padding-bottom: 3em;
+    	padding-bottom: 4em;
     `}
 
     ${breakpoint('mobile')`
